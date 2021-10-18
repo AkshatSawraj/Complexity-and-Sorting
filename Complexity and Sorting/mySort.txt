@@ -1,0 +1,22 @@
+Sort of Choice : Heap Sort
+
+Time complexity : O(n log n)
+
+What it does:
+
+For this explanation I will assume you understand the rules of a heap.
+
+The Heap sort grabs the larget possible number in a heap and places
+it in the last possible position in an array.
+
+Then it takes whatever number was in its position and swaps it 
+whatever position the larger number came from as well as locking the 
+largest number away knowing it does not need to be touched again.
+
+After that, it takes the remaining numbers and rearanges them if needed 
+such that the rules of a heap are not broken.(Puts the number further down 
+swapping with each position it is moved so long as the are larger of
+the two numbers is not on top).
+
+This proccess is then repeated until all the numbers 
+are locked away in an array in a sorted order.
